@@ -1,2 +1,2 @@
-# jabastudy
-jaba study directory
+# javastudy
+java study directory
