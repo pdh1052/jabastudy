@@ -1,0 +1,25 @@
+1. jdk  (java development kit) 설치
+  -자바 개발환경 설정
+https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+
+2. ide (eclipse) 다운로드
+ 
+3. 자바 프로젝트를 저장할 수 있는 공간
+  -workspace_java
+
+4. eclipse의 구조
+  -이클립스 우측 상단의 [open perspective]를 클릭하여 java perspective 선택
+  -프로젝트명은 첫 글자 대문자, 띄어쓰기하지 않고 띄어쓰는 단어의 첫 글자 대문자
+  -[컨트롤n]을 누른후 [package]생성
+  -패키지는 다 소문자로.
+  -회사의 도메인을 거꾸로
+  -[컨트롤n]을 누른후 class 생성
+  -main() 메서드를 생성. >>[main] 적은후 *컨트롤 스페이스
+  -콘솔에 출력은 sysout 적은후 *컨트롤 스페이스
+  
+
+
+5. 콘솔에 "hello world" 출력
+
+6. 변수 
+= 는 대입한단 뜻   우측값을 좌측에 대입.
