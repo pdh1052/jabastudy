@@ -1,0 +1,26 @@
+       primitive            자료형(Type)           referece
+      기본자료형                                    참조자료형
+   Boolean : true, false                        - 기본자료형이 X
+     ex) Boomlean a = true; 
+   
+   Char : 한 글자
+     ex) Char a = 'b'
+
+   Byte (1byte=8bit)
+  >> -128~127
+
+   Short (2byte)
+  >> 거의안씀
+
+   Int (4byte) (정수형의 기본자료)
+  >> -2의 31승 ~ 2의 30승  
+          (+-21억 정도) 
+
+   Long (8byte)
+  >> Long형에 맞는 값은
+       숫자 뒤에 L을 써줘야 한다.
+    ex) Long aaa = 2500000000L;
+
+   실수형(정밀도)소수
+  >> float ,값 뒤에 F를 써줘야 한다.
+       double(실수형의 기본 자료형)
