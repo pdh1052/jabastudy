@@ -1,0 +1,48 @@
+package kr.co.ezen;
+
+public class MainEx {
+
+	public static void main(String[] args) {
+		
+		Test1 t1 = new Test1();
+	 
+		Test1 t2 = new Test1();
+		
+		t1 = new Test1();
+		
+		Test1 t3 = new Test1(34L);
+		
+		Test1 t4 = new Test1(5,8);
+		
+		Person kim0 = new Person();
+		
+		kim0.setSsn("1996");
+		kim0.setAge(19);
+		kim0.setCar(Car K7);
+		kim0.setDog(Dog happy);
+		kim0.setName("Park");
+		
+		
+		
+		System.out.println(kim0.getSsn());
+		System.out.println(kim0.getName());
+		System.out.println(kim0.getCar());
+		System.out.println(kim0.getAge());
+		System.out.println(kim0.getDog());
+
+		
+		
+		
+		
+		
+		Person kim1 = new Person("ss1", "kim1", 42, "seoul", "maf", new Dog(), new Car());
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -14,6 +14,13 @@ public class MethodTest3 {
 		
 		return new Test12();
 	}
-	
 
+
+	}
+		
+		
+	
+	
+	
+	
 }

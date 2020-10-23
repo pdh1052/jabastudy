@@ -1,0 +1,20 @@
+package kr.co.ezen;
+
+
+
+public class Test1 {
+	
+	public Test1() {
+		
+	
+	public Test1(long a) {
+		System.out.println(a);
+		
+	}
+	
+
+		
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.naver;
+
+public class MethodTest4 {
+	public int ggg() {
+		return 33;
+		
+		
+	}
+
+}

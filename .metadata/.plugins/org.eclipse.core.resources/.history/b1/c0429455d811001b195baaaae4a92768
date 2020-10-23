@@ -1,0 +1,23 @@
+package com.naver;
+
+public class MainEx {
+	public static void main(String[] args) {
+		char c = 65;
+		System.out.println(i);
+		boolean b = false;
+		System.out.println("b");
+		Long longVa = 3000000000L;
+		System.out.println(longVa);
+		Dog dog = new Dog();
+		int i = 56;
+		System.out.println(i);
+		String a = string("dd");
+		System.out.println(a);
+		
+		
+		
+		
+		
+	}
+
+}

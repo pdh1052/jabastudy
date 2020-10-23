@@ -1,0 +1,16 @@
+package com.naver;
+
+import kr.co.ezen.Test12;
+
+public class MethodTest2 {
+	
+	public Test12 giveMeTheMoney() {
+		
+		
+		return new Test12();
+		
+		
+		
+	}
+
+}

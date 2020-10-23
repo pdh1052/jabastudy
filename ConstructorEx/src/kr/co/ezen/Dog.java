@@ -1,0 +1,71 @@
+package kr.co.ezen;
+
+public class Dog {
+	private String name;
+	private String juin;
+	private String tel;
+	private String dsn;
+	
+	
+
+
+	
+
+	public Dog(String name, String juin, String tel, String dsn) {
+		super();
+		this.name = name;
+		this.juin = juin;
+		this.tel = tel;
+		this.dsn = dsn;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public String getJuin() {
+		return juin;
+	}
+
+
+	public void setJuin(String juin) {
+		this.juin = juin;
+	}
+
+
+	public String getTel() {
+		return tel;
+	}
+
+
+	public void setTel(String tel) {
+		this.tel = tel;
+	}
+
+
+	public String getDsn() {
+		return dsn;
+	}
+
+
+	public void setDsn(String dsn) {
+		this.dsn = dsn;
+	}
+	
+	
+		
+	
+		
+		
+		
+		
+	
+
+}

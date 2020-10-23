@@ -1,0 +1,30 @@
+package kr.co.ezen;
+
+import com.naver.CarRegistManagementService;
+
+public class MainEx {
+	public static void main(String[] args) {
+		CarRegistManagementService crms = new CarRegistManagementService();
+		
+		crms.setCarName("");
+		
+		String carName = crms.getCarName();
+		System.out.println(carName);
+		
+		
+		
+		CarRegistManagementService crms2 = new CarRegistManagementService();
+		int result = crms2.add(4, 4);
+		System.out.println(result);
+		
+	}
+
+	
+	
+	}
+	
+	
+	
+	
+	
+

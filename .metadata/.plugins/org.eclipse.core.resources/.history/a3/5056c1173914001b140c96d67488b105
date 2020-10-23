@@ -1,0 +1,39 @@
+package kr.co.ezen;
+
+import com.naver.CarRegistManagementService;
+import com.naver.DogRegistManagementService;
+
+public class MainEx {
+	public static void main(String[] args) {
+		CarRegistManagementService crms = new CarRegistManagementService();
+		
+		crms.setCarName("k7");
+		
+		String carName = crms.getCarName();
+		System.out.println(carName);
+		
+		
+		
+		CarRegistManagementService crms2 = new CarRegistManagementService();
+		int result = crms2.add(4, 4);
+		System.out.println(result);
+		
+		DogRegistManagementService drms = new DogRegistManagementService();
+		Dog happy = drms.makeDog("happy", 19);
+		System.out.println(happy);
+		
+		
+		
+	}
+
+	
+	
+	
+	
+	}
+	
+	
+	
+	
+	
+

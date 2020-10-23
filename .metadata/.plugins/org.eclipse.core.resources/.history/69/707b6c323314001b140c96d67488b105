@@ -1,0 +1,26 @@
+package com.naver;
+
+public class CarRegistManagementService {
+	
+	private String carName;
+	
+	public CarRegistManagementService() {
+		carName = "¼Ò³ªÅ¸";
+		
+		
+	}
+	
+	public void setCarName(String carName) {
+		this.setCarName(carName);
+		
+		}
+
+	
+	public String getCarName() {
+		return carName;
+		
+	}
+	
+	
+	
+}

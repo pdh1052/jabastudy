@@ -1,0 +1,15 @@
+package kr.co.ezen;
+
+public class Dog {
+	
+	public Dog dog(String name) {
+		
+		String Dog = "haapy"
+		return name;
+		
+		
+		
+		
+	}
+
+}

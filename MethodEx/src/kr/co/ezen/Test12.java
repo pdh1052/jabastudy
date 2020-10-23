@@ -2,11 +2,6 @@ package kr.co.ezen;
 
 public class Test12 {
 	
-	int a;
-	boolean b = true;
-	MethodTest mt1;
-	MethodTest mt2 = new MethodTest();
-	
 	
 	
 	public Test12() {

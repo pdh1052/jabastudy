@@ -1,0 +1,28 @@
+package kr.co.ezen;
+
+public class Person {
+	private String ssn;
+	private String name;
+	private int age;
+	private String adress;
+	private String job;
+	private Dog dog;
+	private Car car;
+	
+	public Person() {
+		
+	}
+
+	public Person(String ssn, String name, int age, String adress, String job, Dog dog, Car car) {
+		
+		this.ssn = ssn;
+		this.name = name;
+		this.age = age;
+		this.adress = adress;
+		this.job = job;
+		this.dog = dog;
+		this.car = car;
+	}
+	
+
+}

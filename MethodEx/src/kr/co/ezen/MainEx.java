@@ -2,7 +2,7 @@ package kr.co.ezen;
 
 import com.naver.MethodTest2;
 import com.naver.MethodTest3;
-import com.naver.MethodTest4;
+
 
 public class MainEx {
 
@@ -31,15 +31,45 @@ public static void main(String[] args) {
 		
 		MethodTest2 mt5 = new MethodTest2();
 		int re1 = mt5.giveMeTheMoney();
-		
 		MethodTest2 mt6 = new MethodTest2();
 		int re2 = mt6.giveMeTheMoney();
 		int re3 = mt5.giveMeTheMoney();
 		re2 = mt6.giveMeTheMoney();
 		
 		MethodTest3 mt7 = new MethodTest3();
-        Test12 re4 = mt7.getTest12();
+		Test12 re4 = mt7.getTest12();
 		
+		
+		
+
+        
+		
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
 		
 		
 		

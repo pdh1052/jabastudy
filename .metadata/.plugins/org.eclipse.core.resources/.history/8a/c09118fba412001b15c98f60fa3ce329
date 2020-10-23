@@ -1,0 +1,20 @@
+package kr.co.ezen;
+
+public class MainEx {
+	public static void main(String[] args) {
+		
+		MethodTest mt1 = new MethodTest();
+		MethodTest mt2 = new MethodTest();
+		
+		mt1.stand();
+		mt1.sleep();
+		mt1.sayHello();
+		
+		mt2.sitDown();
+		mt2.callName("¹ÚµµÇö");
+		mt2.printDan(5);
+		
+		
+	}
+
+}
