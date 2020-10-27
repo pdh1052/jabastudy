@@ -1,0 +1,11 @@
+package kr.co.ezen;
+
+public class Duck {
+	
+	private String a;
+	private int b;
+	private String c;
+	
+	
+
+}

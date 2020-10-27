@@ -1,0 +1,74 @@
+package kr.co.ezen;
+
+import java.util.Date;
+
+import com.nate.Team;
+import com.naver.Car;
+import com.naver.Person;
+
+
+public class MainEx {
+
+	public static void main(String[] args) {
+		
+//		Car car1 = new Car("K7", "1052", 50000)
+		Car car1 = new Car();
+		car1.setCarNo("1052");
+		car1.setModelName("Mase");
+		car1.setPrice(50000);
+		car1.showMePrice();
+		car1.run(300);
+		
+		Car car2 = new Car("BMW", "1228", 70000); // >>>인스턴스 변수
+		Car car3 = new Car("SM5", "9431", 30000); // >>>인스턴스 변수
+		
+				
+				
+		
+		
+		
+		System.out.println("==========================================");
+		
+	   
+		Dog do1 = new Dog();
+		
+		
+		do1.setDid(1);
+		do1.setName("happy");
+		String dogsleep = do1.sleep("집");
+		System.out.println(dogsleep);
+		
+		Dog dog2 = new Dog(2, "ggoggo", new Date(2));
+		Dog dog3 = new Dog(3, "jojo", new Date(33));
+		
+		
+		
+		System.out.println("=====================================");
+		
+		Person captain = new Person("captain11", "잭스패로우", do1 , car1);
+		Person member1 = new Person("member11", "김유신", dog2 , car2);
+		Person member2 = new Person("member22", "이순신", dog3, car3);
+	
+		System.out.println("========================================");		
+		
+		Team aTeam = new Team(captain, member1, member2);
+		
+		
+		Car car4 = new Car("perari", "1118", 70000); // >>>인스턴스 변수
+		Car car5 = new Car("rambo", "9611", 30000); // >>>인스턴스 변수
+		Dog dog4 = new Dog(10, "dodo", new Date(2));
+		Dog dog5 = new Dog(4, "zizi", new Date(33));
+		Person captainA = new Person("captain11", "도현", dog4 , car4);
+		Person memberA = new Person("member11", "지혁", dog5 , car5);
+		
+		Team bTeam = new Team(captainA, memberA , null);
+				
+		System.out.println("========================================");	
+				
+		aTeam.fight(bTeam);
+		bTeam.fightMem1(aTeam);
+		aTeam.fightMem2Dog(bTeam);
+
+	}
+
+}

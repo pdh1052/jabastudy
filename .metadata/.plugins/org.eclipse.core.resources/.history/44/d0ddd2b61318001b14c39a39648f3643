@@ -1,0 +1,29 @@
+package kr.co.ezen;
+
+public class Hero {
+	
+	public Hero() {
+		
+	}
+	
+	private bow bow;
+
+	public Hero(kr.co.ezen.bow bow) {
+		
+		this.bow = bow;
+	}
+
+	public bow getBow() {
+		return bow;
+	}
+
+	public void setBow(bow bow) {
+		this.bow = bow;
+	}	
+	
+	public void attck(Monster mon) {
+		bow.attack(mon);
+		
+	}
+
+}

@@ -1,0 +1,58 @@
+package com.naver;
+
+public class Person {
+	
+	public Person() {
+				
+	}
+	
+	private String id;
+	private String name;
+	private Dog happy;
+	private k7 Car;
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Dog getHappy() {
+		return happy;
+	}
+	public void setHappy(Dog happy) {
+		this.happy = happy;
+	}
+	public k7 getCar() {
+		return Car;
+	}
+	public void setCar(k7 car) {
+		Car = car;
+	}
+	public Person(String id, String name, Dog happy, k7 car) {
+		
+		this.id = id;
+		this.name = name;
+		this.happy = happy;
+		Car = car;
+	}
+	
+	public void sleep(String where) {
+	System.out.println(happy+where + "에서" + " " +"재운다");	
+			
+	}
+	public void run(int speed) {
+		System.out.println(speed+"속도로 달린다");
+		
+	}
+	public void printCarPrice() {
+		System.out.println("3억");
+		
+	}
+
+}

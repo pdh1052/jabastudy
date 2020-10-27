@@ -1,0 +1,10 @@
+package kr.co.ezen;
+
+public class bow {
+
+	public void attack(Monster mon) {
+		
+		
+	}
+
+}

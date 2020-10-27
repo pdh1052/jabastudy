@@ -16,5 +16,12 @@
     <fullyQualifiedTypeName name="kr.co.ezen.Test1"/>
     <fullyQualifiedTypeName name="kr.co.ezen.Person"/>
     <fullyQualifiedTypeName name="kr.co.ezen.Car"/>
+    <fullyQualifiedTypeName name="com.nate.Person"/>
+    <fullyQualifiedTypeName name="com.naver.Car"/>
     <fullyQualifiedTypeName name="kr.co.ezen.Dog"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="com.naver.Person"/>
+    <fullyQualifiedTypeName name="com.nate.Team"/>
+    <fullyQualifiedTypeName name="com.league.Skill"/>
+    <fullyQualifiedTypeName name="com.league.champion"/>
 </qualifiedTypeNameHistroy>

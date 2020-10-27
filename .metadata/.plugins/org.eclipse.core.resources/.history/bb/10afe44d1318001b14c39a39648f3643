@@ -1,0 +1,27 @@
+package kr.co.ezen;
+
+public class MainEx {
+
+	public static void main(String[] args) {
+		
+		Hero bow1 = new Hero();
+		Monster mon1 = new Monster();
+		mon1.setMonsterName("ΩΩ∂Û¿”");
+		
+		
+		bow1.attck(mon1);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,56 @@
+package com.league;
+
+public class champion {
+	
+	
+	public champion() {
+		
+	}
+	
+	private String timo;
+	private String ari;
+	private String mundo;
+	private String dohyun;
+	
+	public champion(String timo, String ari, String mundo, String dohyun) {
+		
+		this.timo = timo;
+		this.ari = ari;
+		this.mundo = mundo;
+		this.dohyun = dohyun;
+	}
+
+	public String getTimo() {
+		return timo;
+	}
+
+	public void setTimo(String timo) {
+		this.timo = timo;
+	}
+
+	public String getAri() {
+		return ari;
+	}
+
+	public void setAri(String ari) {
+		this.ari = ari;
+	}
+
+	public String getMundo() {
+		return mundo;
+	}
+
+	public void setMundo(String mundo) {
+		this.mundo = mundo;
+	}
+
+	public String getDohyun() {
+		return dohyun;
+	}
+
+	public void setDohyun(String dohyun) {
+		this.dohyun = dohyun;
+	}
+	
+
+}

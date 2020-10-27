@@ -1,0 +1,39 @@
+package com.league;
+
+public class MainEx {
+
+	public static void main(String[] args) {
+		
+		
+		champion  ari = new champion();
+		champion  timo = new champion();
+		champion  mundo = new champion();
+		champion  dohyun = new champion();
+		
+		String blueTeam = ari.getAri();timo.getTimo();
+		String redTeam = mundo.getMundo();dohyun.getDohyun();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

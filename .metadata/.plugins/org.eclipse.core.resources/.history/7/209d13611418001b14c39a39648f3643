@@ -1,0 +1,22 @@
+package kr.co.ezen;
+
+public class Monster {
+
+	
+	
+
+	private String monsterName;
+
+	public Monster() {
+		
+	}
+
+	public String getMonsterName() {
+		return monsterName;
+	}
+
+	public void setMonsterName(String mon) {
+		
+		this.monsterName = mon;
+	} 
+}

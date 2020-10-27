@@ -18,12 +18,14 @@ public class Dog {
 		return did;
 	}
 	public void setDid(int did) {
+		System.out.println(did);
 		this.did = did;
 	}
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
+		System.out.println(name);
 		this.name = name;
 	}
 	
@@ -42,7 +44,7 @@ public class Dog {
 	}
 
 	public String sleep(String where) {
-		
+	   
 		return where + "ø°º≠ ¿‹¥Ÿ.";
 		
 		

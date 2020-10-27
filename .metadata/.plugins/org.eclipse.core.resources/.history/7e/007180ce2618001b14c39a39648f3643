@@ -1,0 +1,27 @@
+package kr.com.ezen;
+
+import com.naver.Test;
+
+public class MainEx {
+
+	public static void main(String[] args) {
+		
+		
+	Test t1 = new Test();
+	t1.me4();
+	t1.me41(10, 5);
+	t1.me51(0, 3);
+	t1.me51(1, 3);
+	t1.me51(2, 3);
+	t1.me51(3, 3);
+	t1.me51(4, 3);
+	t1.me51(5, 3);
+	t1.me51(6, 3);
+	
+	
+		
+		
+
+	}
+
+}

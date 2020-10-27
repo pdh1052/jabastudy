@@ -1,0 +1,10 @@
+package kr.co.ezen;
+
+public class Sword {
+	
+	public void Attack(Monster mon) {
+		System.out.println("검으로 " +mon+" 을(를) 공격합니다.");
+		
+	}
+
+}
