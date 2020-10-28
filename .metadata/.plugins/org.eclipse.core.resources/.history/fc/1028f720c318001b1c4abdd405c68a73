@@ -1,0 +1,73 @@
+package kr.co.ezen;
+
+import com.naver.Test;
+
+public class MainEx {
+
+	public static void main(String[] args) {
+		
+		Test t1 = new Test();
+		
+		boolean result = t1.me1(3, 4);
+		System.out.println(result);
+		
+		System.out.println("===============================");
+		
+		Test t2 = new Test();
+		boolean result1 = t2.me2(3L, 4L);
+		System.out.println(result1);
+		
+		System.out.println("===============================");
+		
+		Test t3 = new Test();
+		String result2 = t3.me3(3.1f, 4.1f);
+		System.out.println(result2);
+		System.out.println("===============================");
+		
+		Test t4 = new Test();
+		char result3 = t4.me4(3, 4);
+		System.out.println(result3);
+		
+		System.out.println("===============================");
+		
+		Test t5 = new Test();
+		byte a = 1;
+		byte b = 127;
+		boolean result4 = t5.me5(a,b);                  // or    ****boolean result4 = t5.me5((byte)1,(byte)127);****
+		System.out.println(result4);
+		
+		System.out.println("===============================");
+
+		Test t6 = new Test();
+		boolean result5 = t6.me6((short)3, (short)3);
+		System.out.println(result5);
+		
+		System.out.println("===============================");
+		
+		t1.me7(result, result1);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.league;
+
+public class Monster {
+	
+	public String Mundo() {
+		return "문도";
+	}
+	
+	public String Baron() {
+		return "바론";
+	}
+
+	
+	
+		
+	}
+
+

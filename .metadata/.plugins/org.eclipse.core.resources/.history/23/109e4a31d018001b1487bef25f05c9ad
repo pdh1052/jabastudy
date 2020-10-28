@@ -1,0 +1,59 @@
+package com.league;
+
+public class Timo {
+	
+	public Timo() {
+		
+	}
+
+	private String q;
+	private String w;
+	private String e;
+	private String r;
+	public Timo(String q, String w, String e, String r) {
+		super();
+		this.q = q;
+		this.w = w;
+		this.e = "맹독다트";
+		this.r = r;
+	}
+	public String getQ() {
+		return q;
+	}
+	public void setQ(String q) {
+		System.out.println("실명다트");
+		this.q = q;
+	}
+	public String getW() {
+		return w;
+	}
+	public void setW(String w) {
+		System.out.println("신속한움직임");
+		this.w = w;
+	}
+	public String getE() {
+		return e;
+	}
+	public void setE(String e) {
+		System.out.println("맹독다트");
+		this.e = e;
+		
+	}
+	public String getR() {
+		return r;
+	}
+	public void setR(String r) {
+		System.out.println("버섯설치");
+		this.r = r;
+	}
+	public void Attack(Monster mon) {
+		
+		System.out.println("티모가"+mon+"에게"+e);
+		
+	}
+	
+		
+	}
+	
+	
+

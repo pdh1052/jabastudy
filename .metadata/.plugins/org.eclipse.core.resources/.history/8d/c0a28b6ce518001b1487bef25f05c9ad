@@ -1,0 +1,26 @@
+package com.league;
+
+public class Timo {
+	
+	
+
+	public void Attack(Monster mon) {
+		System.out.println("티모가 "+mon+" 평타");
+		
+	}
+
+	public void Qskill(Monster mon) {
+		System.out.println("티모가 "+mon+" 실명다트");
+		
+	}
+
+	
+		
+		
+	}
+	
+		
+	
+
+	
+

@@ -1,0 +1,15 @@
+package com.league;
+
+public class Monster {
+	
+	public String toString() {
+		return "¹®µµ";
+	}
+	
+
+	
+	
+		
+	}
+
+

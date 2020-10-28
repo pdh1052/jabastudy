@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="com.naver.CarRegistManagementService"/>
     <fullyQualifiedTypeName name="com.naver.DogRegistManagementService"/>
     <fullyQualifiedTypeName name="com.naver.HeadTest"/>
-    <fullyQualifiedTypeName name="com.naver.Test2"/>
     <fullyQualifiedTypeName name="com.naver.Cat"/>
     <fullyQualifiedTypeName name="com.naver.Test3"/>
     <fullyQualifiedTypeName name="com.naver.Dog"/>
@@ -24,4 +23,10 @@
     <fullyQualifiedTypeName name="com.nate.Team"/>
     <fullyQualifiedTypeName name="com.league.Skill"/>
     <fullyQualifiedTypeName name="com.league.champion"/>
+    <fullyQualifiedTypeName name="kr.co.ezen.bow"/>
+    <fullyQualifiedTypeName name="kr.co.ezen.Hero"/>
+    <fullyQualifiedTypeName name="kr.co.ezen.Monster"/>
+    <fullyQualifiedTypeName name="kr.co.ezen.spear"/>
+    <fullyQualifiedTypeName name="com.naver.Test2"/>
+    <fullyQualifiedTypeName name="com.naver.Test"/>
 </qualifiedTypeNameHistroy>

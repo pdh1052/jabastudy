@@ -1,0 +1,14 @@
+package kr.co.ezen;
+
+public class Test5 {
+	
+	private int a = 2;
+	private int b = 5;
+	
+	public void h1() {
+		int c = b&a ;
+		System.out.println(c);
+		
+	}
+
+}

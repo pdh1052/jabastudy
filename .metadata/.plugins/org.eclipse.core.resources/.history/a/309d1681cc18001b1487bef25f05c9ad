@@ -1,0 +1,28 @@
+package com.league;
+
+public class Monster {
+	
+	private String mon;
+	
+	
+
+	public String getMon() {
+		return mon;
+	}
+
+
+
+	public void setMon(String mon) {
+		this.mon = mon;
+	}
+
+
+
+	public Monster(String mon) {
+		super();
+		this.mon = mon;
+	}
+		
+	}
+
+

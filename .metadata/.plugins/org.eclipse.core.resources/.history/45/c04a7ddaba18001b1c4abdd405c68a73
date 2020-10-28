@@ -1,0 +1,11 @@
+package com.naver;
+
+public class Test {
+	
+	public boolean me1(int a, int b) {
+	
+		return a>b;
+		
+	}
+
+}

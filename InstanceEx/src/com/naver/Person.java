@@ -1,5 +1,6 @@
 package com.naver;
 
+import kr.co.ezen.Car;
 import kr.co.ezen.Dog;
 
 public class Person {

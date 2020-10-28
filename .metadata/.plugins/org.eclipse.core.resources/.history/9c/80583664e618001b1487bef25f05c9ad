@@ -1,0 +1,21 @@
+package com.league;
+
+public class MainEx {
+
+	public static void main(String[] args) {
+		Timo timo = new Timo();
+		Monster mon = new Monster();
+		Monster mon2 = new Monster();
+		mon.Mundo();
+		
+		
+		timo.Attack(mon);
+		timo.Qskill(mon2);
+		
+		
+		
+		
+		
+	}
+
+}

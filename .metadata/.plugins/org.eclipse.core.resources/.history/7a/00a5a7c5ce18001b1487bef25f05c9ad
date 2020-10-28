@@ -1,0 +1,17 @@
+package com.league;
+
+public class Monster {
+	
+	private void sysout() {
+		System.out.println("¹®µµ");
+
+	}
+	
+	
+
+	
+	
+		
+	}
+
+

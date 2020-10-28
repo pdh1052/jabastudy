@@ -1,0 +1,30 @@
+package com.league;
+
+public class Monster {
+	
+	private String mon;
+	
+	
+
+	public String getMon() {
+		System.out.println(mon);
+		return mon;
+	}
+
+
+
+	public void setMon(String mon) {
+		System.out.println(mon);
+		this.mon = mon;
+	}
+
+
+
+	public Monster(String mon) {
+		System.out.println(mon);
+		this.mon = mon;
+	}
+		
+	}
+
+

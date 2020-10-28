@@ -1,6 +1,6 @@
 package com.nate;
 
-import com.naver.Car;
+import kr.co.ezen.Car;
 
 import com.naver.Person;
 
@@ -60,14 +60,14 @@ public class Team {
 		//sysout  "mn";
 		
 		
-		String modelName = member2.getK7().getModelName();
+		String modelName = member2.getK7().getCarModel();
 		System.out.println(modelName);
 	}
 	
 	public char getCaptainCarModelNameFirstChar() {
 		
 		Car car = captain.getK7();
-		String modelName= car.getModelName();
+		String modelName= car.getCarModel();
 		char c = modelName.charAt(0);
 		return c;
 		
@@ -131,8 +131,8 @@ public class Team {
 
 	public void fightCar(Team bTeam) {
 		
-		String captainCarA = this.captain.getK7().getModelName();
-		String captainCarB= bTeam.captain.getK7().getModelName();
+		String captainCarA = this.captain.getK7().getCarModel();
+		String captainCarB= bTeam.captain.getK7().getCarModel();
 		System.out.println(captainCarA+" VS "+captainCarB);
 		
 		

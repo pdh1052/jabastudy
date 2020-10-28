@@ -33,6 +33,10 @@ public class Car {
 	public void setCarprice(int carprice) {
 		this.carprice = carprice;
 	}
+	public void showMePrice() {
+		System.out.println(carprice);
+		
+	}
 
 }
 
