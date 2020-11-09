@@ -1,0 +1,60 @@
+package kr.co.ezen;
+
+import java.util.Scanner;
+
+
+
+
+import com.naver.*;
+
+public class MainEx {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Monster mon = new Monster(100);
+		
+		Weapon[] weapons = {new bow(1, "활"),
+				new sword(10, "검"),
+				new gun(15, "총")
+		};
+		Weapon w = weapons[0];
+		
+		com.naver.Hero h1 = new Hero(weapons,w);
+		
+		boolean isTrue = true;
+		int menu = 0;
+		int weaponIndex = 0;
+		
+		while (isTrue) {
+			System.out.println("다음중 하나를 선택하시오.");
+			System.out.println("0 : 공격, 1 : 무기변경, 2 : 종료");
+			
+			menu = sc.nextInt();
+			if (menu ==2) {
+				break;
+			}
+			if (menu==0) {
+				h1.attack(mon);
+			}else if (menu ==1) {
+				System.out.println("무기를 선택하시오.");
+				for (int i = 0; i < weapons.length; i++) {
+					System.out.print(i);
+					System.out.print(": "+weapons[i]);
+					
+				}
+				System.out.println();
+				
+				weaponIndex = sc.nextInt();
+				sc.nextLine();
+				h1.chageWeapon(weaponIndex);
+			}
+								}
+		h1.attack(mon);
+		h1.attack(mon);
+		h1.chageWeapons(2);
+		h1.attack(mon);
+	
+
+	
+		sc.close();
+}
+}

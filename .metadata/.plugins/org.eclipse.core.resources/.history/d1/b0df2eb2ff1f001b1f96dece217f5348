@@ -1,0 +1,23 @@
+package com.naver;
+
+public class Bow {
+	private int power;
+	
+	public Bow() {
+		
+	}
+
+	public Bow(int power) {
+		super();
+		this.power = power;
+	}
+	
+	public void attack(Monster mon) {
+		int bHp = mon.getHp();
+		int aHp = bHp - power;
+		mon.setHp(aHp);
+		
+		
+		
+	}
+}

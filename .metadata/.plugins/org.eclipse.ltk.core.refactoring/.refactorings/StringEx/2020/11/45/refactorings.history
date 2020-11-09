@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Test.java&apos; to &apos;TypeEx&apos;&#x0D;&#x0A;- Original project: &apos;StringEx&apos;&#x0D;&#x0A;- Destination element: &apos;TypeEx&apos;&#x0D;&#x0A;- Original element: &apos;com.naver.Test.java&apos;" description="Copy compilation unit" destination="=TypeEx" element1="/src&lt;com.naver{Test.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1604469637309" units="1" version="1.0"/>
+</session>

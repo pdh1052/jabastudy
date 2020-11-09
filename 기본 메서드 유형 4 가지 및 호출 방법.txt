@@ -1,0 +1,56 @@
+메서드의 기본 4 유형 학습
+메서드 호출 방법도 학습
+===
+
+Dog class에 me1( ) ~m4( )가 있다는 가정 하에 작성했음.
+
+public void me1( ){
+}
+
+==> Dog d1 = new Dog();
+       d1.me1( );
+================================================
+public void me2(String name, int age){
+
+}
+	d1.me2("kim", 33 );
+==> 
+Dog d1 = new Dog();
+d1.me2();
+=================================================
+public Dog me3( ){
+	int a=3;
+   	int b=4;
+	int c =a + b;
+	sysout(c);
+	return new Dog( );
+
+Dog d1 = new Dog();
+Dog ddd = d1.me3( );
+sysout(ddd);
+================================================
+public int me4(String name){
+	int size = name.length;
+	return size;
+}
+
+Dog d1 = new Dog();
+int size = d1.me4(new String("heel") );
+sysout(size);
+
+==================================================
+멤버변수는 대부분 접근제한자를 private로 설정한다.
+private 접근제한자는 같은 클래스에서는 접근을 허용하지만,
+같은 패키지나 다른 패키지에서는 접근을 거부한다.
+하지만
+객체의 멤버변수는 값을 수정하거나
+값을 활용할 수 있어야 한다.
+그렇다면
+private로 설정된 멤버변수의 값을 어떻게 수정하고 반환받을 수 있나?
+get/set메서드를 이용하면 가능하다.
+
+
+
+
+
+
