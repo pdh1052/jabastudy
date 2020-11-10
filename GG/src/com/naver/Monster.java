@@ -1,7 +1,6 @@
 package com.naver;
 
 public class Monster {
-	
 	private int hp;
 
 	public Monster(int hp) {
@@ -19,8 +18,10 @@ public class Monster {
 
 	@Override
 	public String toString() {
-		return "몬스터의 HP: "+hp;
+		return "Monster HP : " + hp;
 	}
+	
+
 	
 	
 
