@@ -8,7 +8,7 @@ public class MemberDTO implements Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private String id;
+	private String  id;		
 	private String name;
 	private int age;
 	public MemberDTO(String id, String name, int age) {
@@ -39,10 +39,6 @@ public class MemberDTO implements Serializable{
 		return serialVersionUID;
 	}
 	@Override
-	public String toString() {
-		return "MemberDTO [id=" + id + ", name=" + name + ", age=" + age + "]";
-	}
-	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
@@ -65,7 +61,11 @@ public class MemberDTO implements Serializable{
 			return false;
 		return true;
 	}
-
+	@Override
+	public String toString() {
+		return "MemberDTO [id=" + id + ", name=" + name + ", age=" + age + "]";
+	}
+	
 
 	
 

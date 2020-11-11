@@ -1,9 +1,11 @@
 package com.naver;
 
-public abstract class Weapon {
+public abstract class Weapon implements WeaponSkill{
 
 	private int power;
 	private String name;
+	
+	
 	public Weapon(int power, String name) {
 		super();
 		this.power = power;

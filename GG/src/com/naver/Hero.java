@@ -20,9 +20,12 @@ public class Hero {
 	}
 
 	public void chageWeapon(int weaponIdx) {
-		if (weaponIdx >= weapon.length || weaponIdx < 0) {
-			weaponIdx = weapon.length-1;}
-			w=weapon[weaponIdx];
+		
+			try {
+				w=weapon[weaponIdx];
+			} catch (Exception e) {
+				weaponIdx = weapon.length-1;
+			}
 			System.out.println(w + "로 변경되었습니다.");
 		
 	}

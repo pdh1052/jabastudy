@@ -6,15 +6,16 @@ import com.naver.Bow;
 import com.naver.Gun;
 import com.naver.Hero;
 import com.naver.Monster;
+import com.naver.SetUp;
 import com.naver.Sword;
 import com.naver.Weapon;
 
 public class MainEx {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		Monster mon = new Monster(100);
+		Monster mon = new Monster(SetUp.MONSTER_HP);
 		
-		Weapon [] weapon = {new Bow(1, "È°"),new Sword(5, "°Ë"),new Gun(10, "ÃÑ")};
+		Weapon [] weapon = {new Bow(SetUp.BOW_POWER, "È°"),new Sword(SetUp.SWORD_POWER, "°Ë"),new Gun(SetUp.GUN_POWER, "ÃÑ")};
 		Weapon w =weapon[0];
 
 		Hero h1 = new Hero(weapon, w);
