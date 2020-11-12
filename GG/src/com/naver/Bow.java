@@ -12,6 +12,12 @@ public class Bow extends Weapon{
 		return getName();
 	}
 
+	@Override
+	public void img() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	
 	
 }
