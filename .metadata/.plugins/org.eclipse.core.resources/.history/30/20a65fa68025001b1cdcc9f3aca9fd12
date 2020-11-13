@@ -1,0 +1,23 @@
+package com.naver;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Test {
+	
+	public void me4() {
+		Set<MemberDTO> set = HashSet<MemberDTO>;
+	}
+	
+	public void me3() {
+		Set<Apple> set = new HashSet<Apple>();
+	}
+	
+	public void me2() {
+		Set<String> set = new HashSet<String>();
+	}
+	
+	public void me1() {
+		Set<Integer> set = new HashSet<Integer>();
+	}
+}

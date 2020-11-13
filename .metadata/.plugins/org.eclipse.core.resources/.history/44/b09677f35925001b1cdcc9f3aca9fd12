@@ -1,0 +1,85 @@
+package kr.co.ezen;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Test {
+	
+	public void me6() {
+		List<Map<String, Object>> list = new ArrayList<Map<String,Object>>();
+		list.add(new HashMap<String, Object>());
+		for (int i = 0; i < list.size(); i++) {
+			Map map = list.get(i);
+		}
+	}
+	
+	public void me5() {
+		List<Thread>list = new ArrayList<Thread>();
+		list.add(new Thread());
+		list.add(new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				
+			}
+		}));
+		for (int i = 0; i < list.size(); i++) {
+			Thread tr = list.get(i);
+		}
+	}
+
+	public void me4() {		
+		List<StringBuffer>list = new ArrayList<StringBuffer>();
+		list.add(new StringBuffer());
+		
+		for (int i = 0; i < list.size(); i++) {
+			 StringBuffer msg = list.get(i);
+		}
+	}
+
+	public void me3() {
+		List<Double> list = new ArrayList<Double>();
+		list.add(3.5);
+		list.add(4.1);
+		list.add(9.8);
+		for (int i = 0; i < list.size(); i++) {
+			double d = list.get(i);
+		}
+		
+		list.set(list.size()-1, 1.1);
+		
+		
+	}
+
+	public void me2() {
+
+		List<Integer> list = new ArrayList<Integer>();
+		list.add(new Integer(3));
+		list.add(new Integer(4));
+		list.add((5));
+		list.add((6));
+		for (int i = 0; i < list.size(); i++) {
+			int num = list.get(i);
+		}
+		
+		list.set(1, 100);
+		list.remove(new Integer(100));  // 인덱스 중에 100삭제
+		list.remove(1);               // 인덱스 1번이 100이니까 1번삭제
+		list.remove(2);
+		System.out.println(list);
+
+	}
+
+	public void me1() {
+		List<Apple> list = new ArrayList<Apple>();
+		list.add(new Apple());
+		for (int i = 0; i < list.size(); i++) {
+			Apple iphone12 = list.get(i);
+		}
+		
+	}
+
+}

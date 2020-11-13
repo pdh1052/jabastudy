@@ -14,6 +14,11 @@ public class SelectCommand implements Command{
 		
 	}
 
+	@Override
+	public String toString() {
+		return "Á¶È¸";
+	}
+
 	
 		
 	

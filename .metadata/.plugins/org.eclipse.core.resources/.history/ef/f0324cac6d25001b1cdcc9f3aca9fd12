@@ -1,0 +1,10 @@
+package kr.co.ezen;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class DB {
+	
+	public static List<Member> db = new ArrayList<Member>();
+
+}

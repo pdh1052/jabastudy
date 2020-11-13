@@ -1,0 +1,103 @@
+package com.naver;
+
+import java.util.Calendar;
+import java.util.Scanner;
+
+public class Test {
+	
+	public void me5() {
+		Scanner sc = new Scanner(System.in);
+		try {
+//			System.out.println("연도를 입력하세요");
+//			int year = sc.nextInt();
+//			sc.nextLine();
+//			
+//			System.out.println("월을 입력하세요");
+//			int month = sc.nextInt();
+//			sc.nextLine();
+			
+			int year = 2020;
+			int month = 10;
+			
+			
+			Calendar c = Calendar.getInstance();
+			c.set(year, month-1, 1);
+			
+			int lastDate = c.getActualMaximum(Calendar.DAY_OF_MONTH);
+			int firstDateDay = c.get(Calendar.DAY_OF_WEEK);
+			
+			System.out.println(year+"년"+month+"월");
+			System.out.println(" 일   월  화  수  목  금  토 ");
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			sc.close();
+		}
+	}
+	
+	public void me41() {
+		Calendar c = Calendar.getInstance();
+		c.set(Calendar.YEAR, 1950);
+		c.set(Calendar.MONTH, Calendar.FEBRUARY);
+		int maxDate = c.getActualMaximum(Calendar.DAY_OF_MONTH);
+		c.set(Calendar.DATE, maxDate);
+		int day = c.get(Calendar.DAY_OF_WEEK);
+		System.out.println(day);
+		
+	}
+		
+	
+	public void me4() {
+		Calendar c = Calendar.getInstance();
+		int maxDate = c.getActualMaximum(Calendar.DAY_OF_MONTH);
+		System.out.println(maxDate);
+	}
+	
+	
+	
+	public void me32() {
+		Calendar c = Calendar.getInstance();
+		c.set(1950, Calendar.JUNE, 25);
+		int day = c.get(Calendar.DAY_OF_WEEK);
+		System.out.println(day);
+	
+	}
+	
+	public void me31() {
+		Calendar c = Calendar.getInstance();
+				c.set(Calendar.MONTH, Calendar.MAY);
+				System.out.println(c);
+	}
+	
+	public void me3() {
+		Calendar c1 = Calendar.getInstance();
+		Calendar c2 = Calendar.getInstance();
+		
+		c1.set(1950, 6-1, 25);
+		
+		System.out.println(c1);
+		System.out.println(c2);
+	}
+	
+	public void me2() {
+		Calendar c = Calendar.getInstance();
+		//년도 정보
+		int year = c.get(Calendar.YEAR);
+		//월 정보
+		int month = c.get(Calendar.MONTH)+1;
+		//일 정보
+		int date = c.get(Calendar.DATE);
+		//요일 정보
+		int day = c.get(Calendar.DAY_OF_WEEK);
+		System.out.println(year);
+		System.out.println(month);
+		System.out.println(date);
+		System.out.println(day);
+	}
+
+	public void me1() {
+		//1.Calendar 클래스 객체 생성 방법
+		Calendar c = Calendar.getInstance();
+	}
+}

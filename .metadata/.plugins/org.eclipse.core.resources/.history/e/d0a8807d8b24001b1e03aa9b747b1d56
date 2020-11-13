@@ -1,0 +1,27 @@
+package com.naver;
+
+import java.util.Calendar;
+
+public class Test {
+	
+	public void me2() {
+		Calendar c = Calendar.getInstance();
+		//년도 정보
+		int year = c.get(Calendar.YEAR);
+		//월 정보
+		int month = c.get(Calendar.MONTH);
+		//일 정보
+		int date = c.get(Calendar.DATE);
+		//요일 정보
+		int day = c.get(Calendar.DAY_OF_WEEK);
+		System.out.println(year);
+		System.out.println(month);
+		System.out.println(date);
+		System.out.println(day);
+	}
+
+	public void me1() {
+		//1.Calendar 클래스 객체 생성 방법
+		Calendar c = Calendar.getInstance();
+	}
+}

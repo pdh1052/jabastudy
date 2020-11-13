@@ -17,6 +17,11 @@ public class InsertCommand implements Command{
 		DB.db.add(dto);
 	}
 
+	@Override
+	public String toString() {
+		return "∞°¿‘";
+	}
+
 	
 
 }

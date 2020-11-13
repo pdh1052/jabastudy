@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.ForegroundAction"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.ForkJoinPool"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-    <fullyQualifiedTypeName name="java.security.PublicKey"/>
-    <fullyQualifiedTypeName name="com.naver.Car"/>
-    <fullyQualifiedTypeName name="com.naver.BMW"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="com.naver.Sonata"/>
     <fullyQualifiedTypeName name="com.kakao.Monster"/>
@@ -14,10 +8,8 @@
     <fullyQualifiedTypeName name="com.kakao.sword"/>
     <fullyQualifiedTypeName name="com.kakao.gun"/>
     <fullyQualifiedTypeName name="com.kakao.Hero"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="kr.co.test.Child"/>
     <fullyQualifiedTypeName name="com.naver.Weapons"/>
-    <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="java.awt.image.AreaAveragingScaleFilter"/>
     <fullyQualifiedTypeName name="com.naver.Inter0"/>
     <fullyQualifiedTypeName name="com.naver.SetUp"/>
@@ -41,7 +33,6 @@
     <fullyQualifiedTypeName name="com.naver.Weapon"/>
     <fullyQualifiedTypeName name="com.naver.Hero"/>
     <fullyQualifiedTypeName name="com.naver.Monster"/>
-    <fullyQualifiedTypeName name="com.naver.Test"/>
     <fullyQualifiedTypeName name="java.util.concurrent.ArrayBlockingQueue"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
@@ -53,11 +44,20 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.naver.MemberDTO"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.naver.Command"/>
     <fullyQualifiedTypeName name="com.naver.InsertCommand"/>
     <fullyQualifiedTypeName name="com.naver.SeletCommand"/>
     <fullyQualifiedTypeName name="com.naver.DeleteCommand"/>
     <fullyQualifiedTypeName name="com.naver.UpdateCommand"/>
+    <fullyQualifiedTypeName name="javax.swing.event.SwingPropertyChangeSupport"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.naver.Test"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
 </qualifiedTypeNameHistroy>
