@@ -1,0 +1,12 @@
+Map
+Map,HashMap
+map.put
+
+
+Set 동등성중복 X
+Set,HashSet
+get대신 iterator
+
+List
+List,ArrayList
+
