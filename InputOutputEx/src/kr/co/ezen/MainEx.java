@@ -10,7 +10,8 @@ public class MainEx {
 //		t1.me2();
 //		t1.me3();
 //		t1.me4();
-		t1.me5();
+		//t1.me5();
+		t1.me6();
 	}
 
 }

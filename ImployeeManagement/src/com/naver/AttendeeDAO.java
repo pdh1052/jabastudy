@@ -37,11 +37,15 @@ public class AttendeeDAO {
 			pstmt.setString(2, dto.getName());
 			pstmt.setString(3, dto.getIntime());
 			
-			pstmt.execute();
+			
+				pstmt.execute();
+				System.out.println("출근체크가 되었습니다.");
+		
+			
 			
 			
 		} catch (Exception e) {
-			e.printStackTrace();
+			System.out.println("이미 출근처리가 되었습니다.");
 		} finally {
 			
 			closeAll(null, pstmt, conn);
@@ -64,7 +68,7 @@ public class AttendeeDAO {
 			pstmt.executeUpdate();
 			
 		} catch (Exception e) {
-			e.printStackTrace();
+			System.out.println("출근 기록이 없는 사원입니다.");
 		}finally {
 			closeAll(rs, pstmt, conn);
 		}
@@ -76,7 +80,7 @@ public class AttendeeDAO {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
-		String sql = "select intime from attendee where id = ?";
+		String sql = "select *from attendee where id = ?";
 		
 		try {
 			
@@ -89,12 +93,14 @@ public class AttendeeDAO {
 			if (rs.next()) {
 				String name = rs.getString("name");
 				String intime = rs.getString("intime");
-				dto = new AttendeeDTO(id, name, intime, null);
+				String exittime = rs.getString("exittime");
+				dto = new AttendeeDTO(id, name, intime, exittime);
 			}
 			
 			
 		} catch (Exception e) {
-			// TODO: handle exception
+			System.out.println("등록되지 않은 사원 ID입니다.");
+			System.out.println("다시 한 번 확인 해 주세요.");
 		}finally {
 			closeAll(rs, pstmt, conn);
 		}
